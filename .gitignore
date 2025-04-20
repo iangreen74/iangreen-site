@@ -1,0 +1,7 @@
+.terraform/
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.DS_Store
+infra/.terraform.lock.hcl
