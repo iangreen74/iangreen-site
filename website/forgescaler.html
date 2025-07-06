@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ForgeScaler – Sovereign Edge AI OS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+<body class="subpage">
+
+  <!-- ───────── Navigation ───────── -->
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="https://vaultscaler.com" target="_blank">VaultScaler</a>
+    <a href="forgescaler.html">ForgeScaler</a>
+    <a href="projects.html">Projects</a>
+    <a href="philosophy.html">Philosophy</a>
+  </nav>
+
+  <!-- ───────── Hero ───────── -->
+  <header class="hero">
+    <div class="container">
+      <h1 style="color: #fff; text-shadow: 2px 2px 6px rgba(0,0,0,0.7);">ForgeScaler</h1>
+      <p class="subhead">The sovereign OS powering VaultScaler’s privacy‑first edge‑AI devices.</p>
+    </div>
+  </header>
+
+  <!-- ───────── Intro ───────── -->
+  <section class="intro">
+    <div class="container">
+      <h2>The Nervous System of VaultScaler One</h2>
+      <p>ForgeScaler is a memory‑driven, DevOps‑inspired operating system purpose‑built for <strong>on‑prem edge devices</strong> such as <em>VaultScaler One</em> (Jetson Orin NX) and <em>VaultScaler Micro</em> (Raspberry Pi 5). It orchestrates secure computer‑vision models for facial recognition, threat detection, and privacy‑preserving home &amp; business security — all <em>offline‑first</em>, with optional remote support.</p>
+      <p>Unlike traditional cloud inference stacks, ForgeScaler keeps data <em>onsite</em>. Every inference cycle is logged to append‑only memory, every software update is cryptographically signed, and every insight remains under the owner’s control.</p>
+    </div>
+  </section>
+
+  <!-- ───────── Architecture ───────── -->
+  <section class="architecture">
+    <div class="container">
+      <h2>System Architecture</h2>
+      <div class="card-grid">
+
+        <div class="card">
+          <h3>⚙️ Core Platform</h3>
+          <ul>
+            <li>k3s + Helm on Jetson Orin / Pi 5</li>
+            <li>Immutable OSTree‑style OS images</li>
+            <li>GitHub Actions for signed OTA releases</li>
+            <li>SQLite + S3 sync for memory logs</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🤖 Edge Agents</h3>
+          <ul>
+            <li><strong>bootstrap‑agent</strong> — first‑boot secure provisioning</li>
+            <li><strong>security‑inference‑agent</strong> — manages CV models &amp; GPU</li>
+            <li><strong>reflector‑agent</strong> — journals events to `.jsonl`</li>
+            <li><strong>ota‑agent</strong> — validates &amp; applies signed updates</li>
+            <li><strong>triage‑agent</strong> — auto‑diagnoses errors locally</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🧠 Memory System</h3>
+          <ul>
+            <li>Append‑only `.jsonl` for state &amp; inference results</li>
+            <li>Markdown retrospectives with diff history</li>
+            <li>Lightweight local dashboard at <code>dashboard.vaultscaler.com</code></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>🔐 Security &amp; Privacy</h3>
+          <ul>
+            <li>Runs fully offline; no cloud telemetry required</li>
+            <li>Zero‑trust LAN API with per‑device keys</li>
+            <li>Owner‑controlled facial database (friends/threats)</li>
+            <li>No vendor lock‑in — models are containerized</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── Deployment Targets ───────── -->
+  <section class="usecases">
+    <div class="container">
+      <h2>Hardware Targets</h2>
+      <ul>
+        <li>🚪 <strong>VaultScaler One</strong> — Jetson Orin NX for pro security</li>
+        <li>🎲 <strong>VaultScaler Micro</strong> — Raspberry Pi 5 demo &amp; PoC</li>
+        <li>🏡 VaultScaler Home — consumer‑grade offline CCTV AI</li>
+        <li>🔭 Future: AGX Orin / PCIe GPUs for large venues</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ───────── Vision ───────── -->
+  <section class="vision">
+    <div class="container">
+      <h2>Why ForgeScaler Exists</h2>
+      <p>Most security AI devices phone home, leak metadata, or depend on proprietary clouds. ForgeScaler delivers a different future: <strong>sovereign, local, self‑healing AI</strong> that respects privacy and operates even when the internet is down.</p>
+      <p>This is not just DevOps. It is <em>RecursiveOps</em> — infrastructure that learns from itself, adapts, and evolves alongside its human operators.</p>
+    </div>
+  </section>
+
+  <!-- ───────── Links ───────── -->
+  <section class="links">
+    <div class="container">
+      <p>🧑‍💻 <a href="https://github.com/iangreen74/forgescaler" target="_blank">ForgeScaler GitHub</a></p>
+    </div>
+  </section>
+
+  <!-- ───────── Footer ───────── -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Ian Green — Systems that reflect, protect, and evolve.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

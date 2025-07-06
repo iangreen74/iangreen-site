@@ -1,0 +1,33 @@
+.
+├── .gitignore
+├── LICENSE
+├── README.md
+├── infra
+│   ├── .terraform
+│   │   ├── providers
+│   │   │   └── registry.terraform.io
+│   │   └── terraform.tfstate
+│   ├── .terraform.lock.hcl
+│   ├── backend.tf
+│   ├── main.tf
+│   ├── modules
+│   ├── outputs.tf
+│   └── variables.tf
+├── scripts
+│   └── deploy.sh
+├── site-structure.txt
+└── website
+    ├── assets
+    │   ├── culture1.jpg
+    │   ├── culture2.jpg
+    │   ├── culture3.jpg
+    │   ├── hero-bg.png
+    │   └── portrait.jpg
+    ├── forgescaler.html
+    ├── index.html
+    ├── philosophy.html
+    ├── projects.html
+    └── styles
+        └── main.css
+
+10 directories, 21 files

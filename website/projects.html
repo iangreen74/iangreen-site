@@ -4,60 +4,61 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Projects – Ian Green</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui, sans-serif;
-      background: #0a0a0a;
-      color: #f0f0f0;
-      padding: 2rem;
-    }
-    h1 {
-      font-size: 2.5rem;
-      background: linear-gradient(to right, #00e0ff, #9e00ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .project {
-      margin-top: 2rem;
-      padding: 1.5rem;
-      border: 1px solid #333;
-      border-radius: 10px;
-      background-color: #121212;
-    }
-    .project h2 {
-      color: #00e0ff;
-    }
-    .project a {
-      color: #9e00ff;
-      text-decoration: none;
-    }
-    .back {
-      display: inline-block;
-      margin-top: 2rem;
-      padding: 0.5rem 1rem;
-      background-color: #00e0ff;
-      color: #000;
-      border-radius: 6px;
-      text-decoration: none;
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/main.css" />
 </head>
-<body>
-  <h1>Projects</h1>
+<body class="subpage">
 
-  <div class="project">
-    <h2>FortiSTK</h2>
-    <p>
-      FortiSTK is an AI-powered, real-time security swarm for blockchain gambling and decentralized finance. It provides anomaly detection, risk scoring, and intelligent protection across Web3 ecosystems.
-    </p>
-    <p>
-      <a href="https://github.com/fortistk" target="_blank">View on GitHub</a>
-    </p>
-  </div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="https://vaultscaler.com" target="_blank">VaultScaler</a>
+    <a href="forgescaler.html">ForgeScaler</a>
+    <a href="projects.html" class="active">Projects</a>
+    <a href="philosophy.html">Philosophy</a>
+  </nav>
 
-  <!-- Add more projects here later -->
+  <header class="hero">
+    <div class="container">
+      <h1 style="color: #fff; text-shadow: 2px 2px 6px rgba(0,0,0,0.7);">Projects</h1>
+      <p class="subhead">Systems built for sovereignty, security, and expression — online and off.</p>
+    </div>
+  </header>
 
-  <a class="back" href="/index.html">← Back to Home</a>
+  <section>
+    <div class="container">
+      <div class="card-grid">
+
+        <div class="card">
+          <h3>🏠 VaultScaler One</h3>
+          <p>An offline-first AI security appliance for homes and critical spaces. VaultScaler One runs facial recognition, stranger detection, and threat alerts on-device — no cloud, no subscriptions, total sovereignty.</p>
+          <a href="https://vaultscaler.com" target="_blank">Visit VaultScaler →</a>
+        </div>
+
+        <div class="card">
+          <h3>⚙️ ForgeScaler</h3>
+          <p>The orchestration OS behind VaultScaler. It’s a secure, memory-driven DevOps system that manages AI workloads from edge to quantum. Recursive. Transparent. Self-improving.</p>
+          <a href="forgescaler.html">Explore ForgeScaler →</a>
+        </div>
+
+        <div class="card">
+          <h3>🔐 Secure Inference Pipelines</h3>
+          <p>Infrastructure for hosting sensitive AI workloads with audit logging, air-gapped deployment, and tenant isolation — for those who need visibility without compromise.</p>
+        </div>
+
+        <div class="card">
+          <h3>🖌️ AnalogStorm (Music Project)</h3>
+          <p>A personal hybrid analog/digital music project exploring themes of decay, isolation, and machine soul. Acoustic meets synth, in progress for 2025 performances.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Ian Green. Secure infrastructure, designed for trust.</p>
+    </div>
+  </footer>
+
 </body>
 </html>

@@ -1,0 +1,23 @@
+.
+├── LICENSE
+├── README.md
+├── infra
+│   ├── backend.tf
+│   ├── main.tf
+│   ├── modules
+│   ├── outputs.tf
+│   └── variables.tf
+├── repo-structure.txt
+├── scripts
+│   └── deploy.sh
+├── site-structure.txt
+└── website
+    ├── assets
+    ├── forgescaler.html
+    ├── index.html
+    ├── philosophy.html
+    ├── projects.html
+    └── styles
+        └── main.css
+
+7 directories, 14 files
